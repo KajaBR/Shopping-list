@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(222, 247, 219);
+    text-align: center;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    padding-bottom: 40px;
+}
+
+.container{
+    max-width: 65vw;
+    max-height: 80vh;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.75), 
+    rgba(0, 0, 0, 0.5));
+    border-radius: 20px;
+    position: relative;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 20px;
+    overflow: auto;
+}
+
+.instruction{
+    color: rgb(204, 196, 196);
+    padding-bottom: 30px;
+}
+
+button {
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    color: rgb(32, 116, 15);
+    cursor: pointer;
+}
+
+button:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(32, 116, 15);
+}
+
+#bledy{
+    padding: 10px;
+    height: 50px;
+}
+
+#bledy .waga0{
+    background-color: rgb(92, 240, 124);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#bledy .waga2{
+    background-color: red;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#sent{
+    text-align: end;
+    padding-top: 80px;
+    padding-right: 31px;
+}
+
+li{
+    list-style-type: none;
+}
